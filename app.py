@@ -4,7 +4,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Set the fixed file path for your Excel file
-file_path = "/Users/sri/Downloads/RENDER/PaReport-2.xlsx"
+file_path = "PaReport-2.xlsx"
 
 # Load the Excel file
 original_data = pd.read_excel(file_path, sheet_name="Summary")
